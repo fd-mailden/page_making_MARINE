@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"">
+    
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+
+    
+    
+</head>
+<body>
+  
+    <div class="header">
+        <div class="container">
+            <div class="header__logo">
+                <div class="logo">
+                    <img class="item" src="../assets/images/logo.png" alt="MARINE">
+                    <p class="item">MARINE</p>
+                </div>
+                
+
+                <div class="header__call">
+                    <p class="item text_color">СALL US:+1 800 450 17 04  |</p>
+                    <a href="https://www.instagram.com/?hl=ru"><img class="item" src="../assets/images/f_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/tw_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/s_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/g_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/v_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/in_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/instagram_icon.png" alt=""></a>
+                
+                </div>
+            </div>
+        </div>
+
+        <div class="header_menu">
+            <div class="container">
+                <div class="header__logo">
+                    <nav class="nav" id="nav">
+                        <div class="menu"><a class="nav__link " href="#" data-scroll="#features">HOME<div class="menu__img"></div></a></div>
+                        <div class="menu"><a class="nav__link" href="#" data-scroll="#works">BLOG <div class="menu__img"></div></a></div>
+                        <div class="menu"><a class="nav__link" href="#" data-scroll="#team">GALLERY <div class="menu__img"></div></a></div>
+                        <div class="menu"><a class="nav__link" href="#" data-scroll="#reviews">PAGES <div class="menu__img"></div></a></div>
+                        <div class="menu"><a class="nav__link" href="#" data-scroll="#download">CONTACTS <div class="menu__img"></div></a></div>
+                    </nav>
+
+                </div>
+
+            </div>             
+        </div>
+    </div>
+
+
+    <!--------------- slider ----------------->
+
+    <div class="slider-body">
+        
+        <div class="flex-wrapper">
+            <div class="slider-wrapper">
+                <div class="slide active">
+                    <img class = "img_slider" src="../assets/images/slider_1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img class="img_slider" src="../assets/images/slider_2.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img class="img_slider" src="../assets/images/slider_2.jpg" alt="">
+                </div>
+                <div id="btn-prev"></div>
+                <div id="btn-next"></div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <!--------------------------- Tile -------------------->
+    <div class = "tile" id="tile">
+        <div class="container">
+            <div class="tile_container">
+                <div class="tile__form">
+                    <div class="tile__image">
+                        <img class="img_tile" src="../assets/images/web.png" alt="">
+                    </div>
+                    <p class="top_text">Web development</p>
+                    <p>IT WAS HARD TO MAKE IT SO COOL</p>
+                </div>
+                <div class="tile__form">
+                    <div class="tile__image">
+                        <img class="img_tile" src="../assets/images/SEO.png" alt="">
+                    </div>
+                    <p class="top_text">Web development</p>
+                    <p>IT WAS HARD TO MAKE IT SO COOL</p>
+                </div>
+
+                <div class="tile__form">
+                    <div class="tile__image">
+                        <img class="img_tile" src="../assets/images/Network.png" alt="">
+                    </div>
+                    <p class="top_text">Web development</p>
+                    <p>IT WAS HARD TO MAKE IT SO COOL</p>
+                </div>
+                <div class="tile__form">
+                    <div class="tile__image">
+                        <img class="img_tile" src="../assets/images/analytics.png" alt="">
+                    </div>
+                    <p class="top_text">Web development</p>
+                    <p>IT WAS HARD TO MAKE IT SO COOL</p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-------------------------project_title--------------->
+    <div class="project_title" id="project_title">
+        <div class="container">
+            <div class="project">
+                <p class="top_title">Recent Project</p>
+                <p>Morbi libero eget erat auctor cursor vitae id torto. Suspendisse rhoncus. Vestibulum eu ligula lorem.</p>
+                <p>Vivamus orci sem, consecteture ut vestibulum a, semper ac dui.</p>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------Posts------------------->
+    <div id="posts">
+        <div class="container">
+
+            <div class="heading_posts header__logo">
+                <p><a class="heading" href="#">A fully responsive theme</a> with clean design for your success!</p>
+                <button class="btn_check">
+                    <img src="../assets/images/check_details.png" alt="">
+                     CHECK DETAILS</button>
+                
+            </div>
+        </div>
+        <div class="border"> </div>
+
+        <div class="container">
+            <div class="post_inner">
+                <div class="recent">
+                    <p class="post_heading">Recent Posts</p>
+                    <div class="recent_inner">
+                        <div class="day">
+                            <p class="size45">15</p>
+                            <p></p>OCT, 2013</p>
+                            <img class="img_cam" src="../assets/images/Camera.png" alt="">
+                        </div>
+                        <div class="post_photo">
+                            <img src="../assets/images/130.jpg" alt="">
+                        </div>
+                        <div class="post_content">
+                            <div class="roud">
+                                <li>BI ADMIN  </li>
+                                <li>WEB,NEWS  </li>
+                                <li>5 COMMENTS  </li>
+                                <li class="blue">READ MORE > </li>
+                            </div>
+                            <div class="post_border"></div>
+                            <div class="post_text">
+                                <p class="first_text">Vivamus orci sem, conse tur per ac dui oin vulputate.</p>
+                                <p>Proin vulputate aliquam mi nec hendrerit. Sed entum velit vel ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recent_inner">
+                        <div class="day">
+                            <p class="size45">23</p>
+                            <p></p>OCT, 2013</p>
+                            <img class="img_cam" src="../assets/images/Video.png" alt="">
+                        </div>
+                        <div class="post_photo">
+                            <img src="../assets/images/130.jpg" alt="">
+                        </div>
+                        <div class="post_content">  
+                            <div class="roud">
+                                <li>BI ADMIN  </li>
+                                <li>WEB,NEWS  </li>
+                                <li>5 COMMENTS  </li>
+                                <li class="blue">READ MORE > </li>
+                            </div>
+                            <div class="post_border"></div>
+                            <div class="post_text">
+                                <p class="first_text">Vivamus orci sem, conse tur per ac dui oin vulputate.</p>
+                                <p>Proin vulputate aliquam mi nec hendrerit. Sed entum velit vel ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordeon">
+                    <p class="post_heading">Accordeon</p>
+                    <div class="fall_out border_box blue">
+                        <img src="../assets/images/minus.png" alt="">
+                        
+                        <p class="border_left">Vivamus orci sem sectetur.</p>
+                    </div>
+                    <div class="fall_out_inner">
+                        <p class="mb20">Sed entum velit vel ipsum bibendum em lacus, itor et aliquam eget, iaculis id lacus. Praesent tudin. </p>
+                        <p>Aiquam eget, iaculis id lacus. Praesent tudin. Ut sem lacus, ttitor putate uam mi nec hendrerit.</p>
+                    </div>
+                    <div class="fall_out border_box mb20">
+                        <img src="../assets/images/plus.png" alt="">
+                        
+                        <p class="border_left">Sed entum velit vel ipsum. </p>
+                    </div>
+                    <div class="fall_out border_box p5 ">
+                        <img src="../assets/images/plus.png" alt="">
+                        
+                        <p class="border_left">Porttitor et aliquam eget. culis. id lacus.</p>
+                    </div>
+
+                </div>
+
+                <div class="people_say">
+                    <p class="post_heading">What People Say</p>
+
+                    <div class="img_81">
+                        <img src="../assets/images/81.jpg" alt="">
+                        <div class="box_188 fall_out_inner">
+                            <p>Sarah Doe</p>
+                            <p class="CEO">CEO, COMPANY.COM</p>
+                        </div>
+                    </div>
+
+                    <div class="triangle"></div>  
+                    
+                    <div class="people_say_inner">
+                        <p class="size_89"> " </p>
+                        <div class="people_say_text">
+                            <p class="fall_out blue mb20">Vivamus orci sem, consectetur ut vestibulum a, semper ac dui. </p>
+                            <p>Sed entum velit vel ipsum bibendum.
+                                sem lacus, porttitor et aliquam eget, iaculis id lacus.</p>
+                        </div>
+                    </div>
+                    
+                    
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-------------------------- advertising ------------------>
+    <div class="advertising" id="advertising">
+        <div class="container">
+            <div class="advertising_inner header__logo">
+                <div class="advertising_image">
+                    <div class="gallery">
+                        <div class="gallery-item">
+                            <img class = "shadow" src="../assets/images/n1.jpg" alt="corgi-1">
+                        </div>
+                        <div class="gallery-item">
+                            <img  class = "shadow" src="../assets/images/n2.jpg" alt="corgi-2">
+                        </div>
+                    </div>  
+                    <img src="../assets/images/keyboard_mouse.png" alt="">              
+                </div>
+                <div class="advertising_post">
+                    <div class="adv_post">
+                        <img class="advertising_icon" src="../assets/images/Flexible.png" alt="">
+                        <div class="advertising_text ">
+                            <p class="top_text_adv">Flexible Solutions</p>
+                            <p>Lorem ipsum dolor sit amet, tetur piscing elit. Suspendisse smod congue </p>
+                            <p>bibendum. Aliquam erat volutpat. Phasellus eget justo lacus. </p>
+                            <div class="adv_border"> </div>
+                        </div>
+                    </div>
+                    <div class="adv_post">
+                        <img class="advertising_icon" src="../assets/images/target.png" alt="">
+                        <div class="advertising_text ">
+                            <p class="top_text_adv">Target Approach</p>
+                            <p>Lorem ipsum dolor sit amet, tetur piscing elit. Suspendisse smod congue </p>
+                            <p>bibendum. Aliquam erat volutpat. Phasellus eget justo lacus. </p>
+                            <div class="adv_border"></div>
+                        </div>
+                    </div>
+                    <div class="adv_post">
+                        <img class="advertising_icon" src="../assets/images/global.png" alt="">
+                        <div class="advertising_text ">
+                            <p class="top_text_adv">Gllobal Development</p>
+                            <p>Lorem ipsum dolor sit amet, tetur piscing elit. Suspendisse smod congue </p>
+                            <p>bibendum. Aliquam erat volutpat. Phasellus eget justo lacus. </p>
+                            <div class="adv_border"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+        </div>
+
+
+    </div>
+ 
+<!------------------- Team ------------->
+
+    <div class = "team" id="team">
+        <div class="container">
+            <div class="project">
+                <p class=" top_title our_team">Our Team</p>
+            </div>
+            <div class="team_inner">
+                <div class="team_item">
+                    <img class="team_photo" src="../assets/images/sad_man.jpg" alt="">
+                    <div class="team_name">Sarah Doe</div>
+                    <div class="CEO">CEO</div>
+                    <div class="team_info">
+                        <p>Proin vulputate aliquam mi nec rerit. Sed entum velit vel ipsum bibendum tristique.</p>                     </div>
+                    <div class="team_borde"></div>
+                    <div class="team_soc_network">
+                        <a href="https://www.instagram.com/?hl=ru"><img class="item" src="../assets/images/f_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/tw_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/s_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/g_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/v_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/in_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/instagram_icon.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="team_item">
+                    <img class="team_photo" src="../assets/images/sad_man.jpg" alt="">
+                    <div class="team_name">Sarah Doe</div>
+                    <div class="CEO">CEO</div>
+                    <div class="team_info">
+                        <p>Proin vulputate aliquam mi nec rerit. Sed entum velit vel ipsum bibendum tristique.</p>                     </div>
+                    <div class="team_borde"></div>
+                    <div class="team_soc_network">
+                        <a href="https://www.instagram.com/?hl=ru"><img class="item" src="../assets/images/f_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/tw_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/s_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/g_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/v_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/in_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/instagram_icon.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="team_item">
+                    <img class="team_photo" src="../assets/images/sad_man.jpg" alt="">
+                    <div class="team_name">Sarah Doe</div>
+                    <div class="CEO">CEO</div>
+                    <div class="team_info">
+                        <p>Proin vulputate aliquam mi nec rerit. Sed entum velit vel ipsum bibendum tristique.</p>                     </div>
+                    <div class="team_borde"></div>
+                    <div class="team_soc_network">
+                        <a href="https://www.instagram.com/?hl=ru"><img class="item" src="../assets/images/f_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/tw_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/s_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/g_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/v_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/in_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/instagram_icon.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="team_item">
+                    <img class="team_photo" src="../assets/images/sad_man.jpg" alt="">
+                    <div class="team_name">Sarah Doe</div>
+                    <div class="CEO">CEO</div>
+                    <div class="team_info">
+                        <p>Proin vulputate aliquam mi nec rerit. Sed entum velit vel ipsum bibendum tristique.</p>                     </div>
+                    <div class="team_borde"></div>
+                    <div class="team_soc_network">
+                        <a href="https://www.instagram.com/?hl=ru"><img class="item" src="../assets/images/f_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/tw_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/s_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/g_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/v_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/in_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/instagram_icon.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+<!----------------Sponsor------------->
+
+    <div  class="sponsor" id="sponsor">
+        <div class="container">
+            <div class="spons_container">
+                <img  class="spons_logo" src="../assets/images/NetCredit.png" alt="">
+                <img  class="spons_logo" src="../assets/images/paroo.png" alt="">
+                <img  class="spons_logo" src="../assets/images/foxter.png" alt="">
+                <img  class="spons_logo" src="../assets/images/quenns.png" alt="">
+                <img  class="spons_logo" src="../assets/images/kamcord.png" alt="">
+
+            </div>
+            
+        </div>
+    </div>
+<!-- ------------------- get_in_touch -------------------->
+    <div class="get_in_touch" id="get_in_touch">
+        <div class="container">
+            <div class="git_inner">
+                <div class="git_heading">
+                    <p>Get In Touch</p>
+                </div>
+                <div class="git_inner">
+
+                    <div class="inputWithIcon">
+                        <input class="git_text" type="text" placeholder="Name*">
+                        <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                      </div>
+                      
+                      <div class="inputWithIcon">
+                        <input class="git_text" type="text" placeholder="Email*">
+                        <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                      </div>
+
+                      <div class="inputWithIcon ">
+                        <p><textarea type="text" class="git_Message"  placeholder="Message"></textarea></p>
+                      
+                      </div>
+                      
+                      <div class="git_btn_box ">
+                          <button class="git_btn">SEND MESSAGE</button>
+                          <button class="git_btn">CLEAR</button>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--  --------------- Twitter ------------ -->
+    <div class = "twitt" id="twitt">
+        <div class="container twitt">
+
+            <div class="twitter_img">
+                <img src="../assets/images/twitter.png" alt="">
+            </div>
+            <div class="twitter_traingle"></div>
+            <div class="twitter_text">
+                <p> <i class="twitter_i">@circles</i>  Because we know you don’t want to be 
+                    in both portrait AND landscape! We care about limited format ...<i class="twitter_i"> by Quill
+                    about 5 minutes ago</i></p>
+            </div>
+            <div class="tw_sleder">
+                <input class="tw_btn" type="image" src="../assets/images/left.png" alt="Кнопка «input»">
+                <input class="tw_btn" type="image" src="../assets/images/right.png" alt="Кнопка «input»">
+            </div>
+
+        </div>
+    </div>
+
+    <!--  --------------- Footer ------------ -->
+    <div class = "footer" id="footer">
+        <div class="container">
+            <div class="footer_items">
+                <div class="footer_logo">
+                    <div class="logo">
+                        <img class="" src="../assets/images/logo.png" alt="MARINE">
+                        <p class="Marine">MARINE</p>
+                    </div>
+                    <div class="footer_text">
+                        <p>Vivamus orci sem, consectetur ut vestibulum a, mper ac dui. Aenean tellus nisl, commodo eu aliquet ut, pulvinar ut sapien. Proin tate aliquam mi nec hendrerit. 
+                        </p>
+                    </div>
+                </div>
+                <div class="footer_posts">
+                    <p class = "heading_footer">Recent Posts</p>
+
+                    <p>dec 15, 2012  |  By admin</p>
+                    <i class ="footer_i">Morbi a libero eget erat auctor. </i>
+                    
+                    <p>Sus vitae id tortor suspendisse stibulum eu igula lorem ivamus orci sem, ectetur. </p>
+                    <div class="footer_border"></div>
+                    <p>dec 15, 2012  |  By admin</p>
+                    <i class ="footer_i">Morbi a libero eget erat auctor. </i>
+                    
+                    <p>Sus vitae id tortor suspendisse stibulum eu igula lorem ivamus orci sem, ectetur. </p>
+                    
+                </div>
+                <div class="contacts">
+                    <p class = "heading_footer">Contacts</p>
+                    <div class="contact_item">
+                        <img class = "advertising_icon" src="../assets/images/Location.png" alt="">
+                        <div class="advertising_text">
+                            <p>Phoenix Inc. </p>
+                            <p>PO Box 21177</p>  
+                            <p>Little Lonsdale St, Melbourne</p>   
+                            <p> Victoria 8011 Australia</p>   
+                        </div>
+                    </div>
+                    <div class="contact_item">
+                        <img class = "advertising_icon" src="../assets/images/Mobile.png" alt="">
+                        <div class="advertising_text">
+                            <p>Phone: (415) 124-5678 </p>
+                            <p>Fax: (415) 124-5678</p>  
+                              
+                        </div>
+                    </div>
+                    <div class="contact_item">
+                        <img class = "advertising_icon" src="../assets/images/Mail.png" alt="">
+                        <div class="advertising_text">
+                            <p>support@yourname.com</p>   
+                        </div>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <p class = "heading_footer">Newsletter Signup</p>
+                    <p class = "text_newsletter">By subscribing to our mailing list you will get the latest news from us.</p>
+                    <div class="inputWithIcon">
+                        <input type="text1" placeholder="">
+                        <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+                    <p class = "heading_footer">Follow Us</p>
+                    <div>
+                        <a href="https://www.instagram.com/?hl=ru"><img class="item" src="../assets/images/f_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/tw_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/s_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/g_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/v_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/in_icon.png" alt=""></a>
+                        <a href=""><img class="item" src="../assets/images/instagram_icon.png" alt=""></a>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+    const prev = document.getElementById('btn-prev'),
+      next = document.getElementById('btn-next'),
+      slides = document.querySelectorAll('.slide'),
+      dots = document.querySelectorAll('.dot');
+
+    let index = 0;
+
+    const activeSlide = n => {
+        for(slide of slides) {
+            slide.classList.remove('active');
+        }
+        slides[n].classList.add('active');
+    }
+
+    const activeDot = n => {
+        for(dot of dots) {
+            dot.classList.remove('active');
+        }
+        dots[n].classList.add('active');
+    }
+
+    const prepareCurrentSlide = ind => {
+        activeSlide(index);
+        activeDot(index);
+    }
+
+    const nextSlide = () => {
+        if(index == slides.length - 1) {
+            index = 0;
+            prepareCurrentSlide(index);
+        }else {
+            index++;
+            prepareCurrentSlide(index);
+        }
+    }
+
+    const prevSlide = () => {
+        if(index == slides.length - 1) {
+            index = 0;
+            prepareCurrentSlide(index);
+        }else {
+            index++;
+            prepareCurrentSlide(index);
+        }
+    }
+
+    dots.forEach((item, indexDot)=> {
+        item.addEventListener('click', () => {
+            index = indexDot;
+            prepareCurrentSlide(index);
+        })
+    })
+
+    next.addEventListener('click', nextSlide);
+    prev.addEventListener('click', prevSlide);
+</script>
+   
+    </body>
+</html>
